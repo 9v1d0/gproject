@@ -8,7 +8,19 @@
 module.exports = {
 
   attributes: {
-
+    userName: {
+      type: 'string',
+      unique: true,
+      required: true
+    }
+    emaiAdress: {
+      type: 'string',
+      unique: true,
+      required: true,
+      email: true
+    }
+    favoriteNumber: {
+      type: 'number',
+    }
   }
 };
-
